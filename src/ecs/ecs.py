@@ -17,6 +17,8 @@ def main():
 
     ecs_infor_array = read_lines(ecsDataPath)
     input_file_array = read_lines(inputFilePath)
+
+
     # implementation the function predictVm
     predic_result = predictor.predict_vm(ecs_infor_array, input_file_array)
     # write the result to output file
