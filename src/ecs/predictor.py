@@ -70,7 +70,7 @@ def predict_vm(ecs_lines, input_lines):
     # prdiction number list corresponding to virtual machine list
     prediction_number_list=[]
     for i in virtual_machine_list:
-        temp=virtual_machine_every_number[i[0]-1]*prediction_day/train_day+1
+        temp=virtual_machine_every_number[i[0]-1]*prediction_day/train_day
         prediction_number_list.append(temp)
     test_data_list=[0,13,3,0,2]
 
